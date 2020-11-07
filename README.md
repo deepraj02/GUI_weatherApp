@@ -1,2 +1,2 @@
-# GUI_weatherApp
-This GUI takes the name of any place as input and returns the Weather condition of that place as Output
+# Program a GUI in Python (with Tkinter) !
+Here is the source code for my video on how to program a graphical user interface application in python using the Tkinter library. The link to the video is here: https://youtu.be/D8-snVfekto
