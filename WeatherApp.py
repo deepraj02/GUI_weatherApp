@@ -16,7 +16,7 @@ def format_response(weather):
 		desc = weather['weather'][0]['description']
 		temp = weather['main']['temp']
 
-		final_str = 'City: %s \nConditions: %s \nTemperature (°F): %s \nTemperature (°C): %s' % (name, desc, temp)
+		final_str = 'City: %s \nConditions: %s \nTemperature (°F): %s:' % (name, desc, temp)
 	except:
 		final_str = 'There was a problem retrieving that information'
 
@@ -34,7 +34,8 @@ def get_weather(city):
 
 
 root = tk.Tk()
-
+root.title("Weather App--By Deepraj")
+root.wm_iconbitmap("C:\\Users\\91762\\Desktop\\GUI-master\\weather.ico")
 canvas = tk.Canvas(root, height=HEIGHT, width=WIDTH)
 canvas.pack()
 
